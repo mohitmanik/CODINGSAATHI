@@ -7,7 +7,7 @@ void gameplay(int n,int p ,int &score,int round ){
      int gueses = n ;
     int userguess;
     srand(time(0));
-    int hidden  = (rand()%10)+1; 
+    int hidden  = (rand()%100)+1; 
     int count = 0 ; 
    
     cout<< " round number  "<<round<<endl;
